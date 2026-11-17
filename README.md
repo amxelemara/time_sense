@@ -49,3 +49,7 @@ worker_src/c/worker.c   background worker (minute tick and vibration)
 package.json            metadata: UUID, targetPlatforms ["emery"]
 flake.nix               FHS dev shell for the Pebble SDK
 ```
+
+## License
+
+MIT. See `LICENSE`.
