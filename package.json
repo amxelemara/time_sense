@@ -1,0 +1,38 @@
+{
+  "name": "time_sense",
+  "author": "am",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "@rebble/clay": "^1.1.0"
+  },
+  "pebble": {
+    "displayName": "Time Sense",
+    "uuid": "7ceb633a-978c-4879-8294-8c105d3b6f0e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "emery"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "Enabled",
+      "Interval",
+      "Vibe",
+      "HourVibe",
+      "RequestSettings"
+    ],
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "description": "Buzzes at clock-aligned intervals to help you feel the passage of time."
+}
